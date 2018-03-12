@@ -1,4 +1,4 @@
-// will return the value in inHG
+// will set the bool atVacc to true or false depending on what the vaccume is at
 void vacMeasure(){
-  
+
 }
