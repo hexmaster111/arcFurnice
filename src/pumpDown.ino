@@ -16,6 +16,6 @@ void pumpDown(){
       pumpDown(); //rePumpthisBoy
     }
   }else{
-    //put estop message here
+    resetDevices();//put estop message here
   }
 }

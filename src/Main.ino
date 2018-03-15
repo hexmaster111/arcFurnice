@@ -20,6 +20,8 @@ int safeTemp = 400; // change this later
 int argonInputTime = 1000; //change this latter
 int argonLoops; //the amount of times we put the argon in
 
+int crusableTemp;
+int electrodeTemp;
 
 bool eStopPressed;
 bool debug = false;
@@ -37,7 +39,6 @@ void loop(){
   if ((debug) && (!eStopPressed)){
     debugOutputs;
   }
-
   checkFlow();
   checkSafty();
   updateDisplay();
